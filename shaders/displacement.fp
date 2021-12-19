@@ -87,8 +87,9 @@ float GetDisplacementAt(vec2 currentTexCoords)
 }
 
 #ifndef STEEP_PARALLAX
-    vec2 ParallaxMap(mat3 tbn)
+    vec2 ParallaxMap(mat3 tbn, out vec3 outNormal)
     {
+        outNormal = vec3(0,0,0);
         const float parallaxScale = 0.15;    // Default 0.15
 
         // Calculate fragment view direction in tangent space
