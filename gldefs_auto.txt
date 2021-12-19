@@ -1,0 +1,1841 @@
+material texture "ASHWALL"
+{
+	shader	"SHADERS/displacement.fp"
+	texture normal	"materials/normalmaps/ASHWALL.png"
+	texture displacement "materials/displacement/ASHWALL.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "BIGDOOR2"
+{
+	shader	"SHADERS/displacement.fp"
+	texture normal	"materials/normalmaps/BIGDOOR2.png"
+	texture displacement "materials/displacement/BIGDOOR2.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "BIGDOOR5"
+{
+	shader	"SHADERS/displacement.fp"
+	texture normal	"materials/normalmaps/BIGDOOR5.png"
+	texture displacement "materials/displacement/BIGDOOR5.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "BIGDOOR7"
+{
+	shader	"SHADERS/displacement.fp"
+	texture normal	"materials/normalmaps/BIGDOOR7.png"
+	texture displacement "materials/displacement/BIGDOOR7.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "DEM1_1"
+{
+	shader	"SHADERS/displacement.fp"
+	texture normal	"materials/normalmaps/DEM1_1.png"
+	texture displacement "materials/displacement/DEM1_1.png"
+	specular "materials/specular/DEM1_1.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "DEM1_2"
+{
+	shader	"SHADERS/displacement.fp"
+	texture normal	"materials/normalmaps/DEM1_2.png"
+	texture displacement "materials/displacement/DEM1_2.png"
+	specular "materials/specular/DEM1_2.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "DEM1_3"
+{
+	shader	"SHADERS/displacement.fp"
+	texture normal	"materials/normalmaps/DEM1_3.png"
+	texture displacement "materials/displacement/DEM1_3.png"
+	specular "materials/specular/DEM1_3.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "DEM1_4"
+{
+	shader	"SHADERS/displacement.fp"
+	texture normal	"materials/normalmaps/DEM1_4.png"
+	texture displacement "materials/displacement/DEM1_4.png"
+	specular "materials/specular/DEM1_4.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "FLAT5_7"
+{
+	shader	"SHADERS/displacement.fp"
+	texture normal	"materials/normalmaps/FLAT5_7.png"
+	texture displacement "materials/displacement/FLAT5_7.png"
+	ao	"materials/ao/FLAT5_7.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "FLOOR6_1"
+{
+	shader	"SHADERS/displacement.fp"
+	texture normal	"materials/normalmaps/FLOOR6_1.png"
+	texture displacement "materials/displacement/FLOOR6_1.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "GSTONE1"
+{
+	shader	"SHADERS/displacement.fp"
+	texture normal	"materials/normalmaps/GSTONE1.png"
+	texture displacement "materials/displacement/GSTONE1.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "MARBFACE"
+{
+	shader	"SHADERS/displacement.fp"
+	texture normal	"materials/normalmaps/MARBFACE.png"
+	texture displacement "materials/displacement/MARBFACE.png"
+	specular "materials/specular/MARBFACE.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "sflr6_1"
+{
+	shader	"SHADERS/displacement.fp"
+	texture normal	"materials/normalmaps/sflr6_1.png"
+	texture displacement "materials/displacement/sflr6_1.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "SKINMET0"
+{
+	shader	"SHADERS/displacement.fp"
+	texture normal	"materials/normalmaps/SKINMET0.png"
+	texture displacement "materials/displacement/SKINMET0.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "SKINMET1"
+{
+	shader	"SHADERS/displacement.fp"
+	texture normal	"materials/normalmaps/SKINMET1.png"
+	texture displacement "materials/displacement/SKINMET1.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "SKINSYMB"
+{
+	shader	"SHADERS/displacement.fp"
+	texture normal	"materials/normalmaps/SKINSYMB.png"
+	texture displacement "materials/displacement/SKINSYMB.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "SKSNAKE1"
+{
+	shader	"SHADERS/displacement.fp"
+	texture normal	"materials/normalmaps/SKSNAKE1.png"
+	texture displacement "materials/displacement/SKSNAKE1.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "SKSPINE1"
+{
+	shader	"SHADERS/displacement.fp"
+	texture normal	"materials/normalmaps/SKSPINE1.png"
+	texture displacement "materials/displacement/SKSPINE1.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "SKSPINE2"
+{
+	shader	"SHADERS/displacement.fp"
+	texture normal	"materials/normalmaps/SKSPINE2.png"
+	texture displacement "materials/displacement/SKSPINE2.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "SKULWALL"
+{
+	shader	"SHADERS/displacement.fp"
+	texture normal	"materials/normalmaps/SKULWALL.png"
+	texture displacement "materials/displacement/SKULWALL.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "SLADSKUL"
+{
+	shader	"SHADERS/displacement.fp"
+	texture normal	"materials/normalmaps/SLADSKUL.png"
+	texture displacement "materials/displacement/SLADSKUL.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "SLADWALL"
+{
+	shader	"SHADERS/displacement.fp"
+	texture normal	"materials/normalmaps/SLADWALL.png"
+	texture displacement "materials/displacement/SLADWALL.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "SP_ROCK1"
+{
+	shader	"SHADERS/displacement.fp"
+	texture normal	"materials/normalmaps/SP_ROCK1.png"
+	texture displacement "materials/displacement/SP_ROCK1.png"
+	ao	"materials/ao/SP_ROCK1.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "SW1GSTON"
+{
+	shader	"SHADERS/displacement.fp"
+	texture normal	"materials/normalmaps/SW1GSTON.png"
+	texture displacement "materials/displacement/SW1GSTON.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "WOOD5"
+{
+	shader	"SHADERS/displacement.fp"
+	texture normal	"materials/normalmaps/WOOD5.png"
+	texture displacement "materials/displacement/WOOD5.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "BIGDOOR1"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/BIGDOOR1.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "BRNPOIS"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/BRNPOIS.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "BRNPOIS2"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/BRNPOIS2.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "BROVINE"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/BROVINE.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "BROVINE2"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/BROVINE2.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "BROWN1"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/BROWN1.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "BROWN96"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/BROWN96.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "BROWNGRN"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/BROWNGRN.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "BROWNPIP"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/BROWNPIP.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "ceil1_1"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/ceil1_1.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "ceil1_2"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/ceil1_2.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "ceil1_3"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/ceil1_3.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "ceil3_1"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/ceil3_1.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "ceil3_2"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/ceil3_2.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "ceil3_3"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/ceil3_3.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "ceil3_4"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/ceil3_4.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "ceil3_5"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/ceil3_5.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "ceil3_6"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/ceil3_6.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "CEMENT3"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/CEMENT3.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "comp01"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/comp01.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "COMP2"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/COMP2.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "COMPOHSO"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/COMPOHSO.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "COMPSPAN"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/COMPSPAN.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "COMPSTA1"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/COMPSTA1.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "COMPSTA2"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/COMPSTA2.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "COMPTALL"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/COMPTALL.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "COMPTILE"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/COMPTILE.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "COMPUTE1"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/COMPUTE1.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "COMPUTE2"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/COMPUTE2.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "COMPUTE3"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/COMPUTE3.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "COMPWERD"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/COMPWERD.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "cons1_1"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/cons1_1.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "cons1_5"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/cons1_5.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "cons1_7"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/cons1_7.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "CRATE1"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/CRATE1.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "CRATE2"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/CRATE2.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "CRATELIT"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/CRATELIT.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "CRATWIDE"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/CRATWIDE.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "DOOR1"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/DOOR1.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "DOOR3"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/DOOR3.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "DOORBLU"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/DOORBLU.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "DOORHI"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/DOORHI.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "DOORRED"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/DOORRED.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "DOORSTOP"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/DOORSTOP.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "DOORTRAK"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/DOORTRAK.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "DOORYEL"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/DOORYEL.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "EXITSIGN"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/EXITSIGN.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "EXITSTON"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/EXITSTON.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "flat1"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/flat1.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "flat17"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/flat17.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "flat18"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/flat18.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "flat2"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/flat2.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "flat20"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/flat20.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "flat22"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/flat22.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "flat3"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/flat3.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "flat4"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/flat4.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "flat5_2"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/flat5_2.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "flat8"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/flat8.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "flat9"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/flat9.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "floor0_1"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/floor0_1.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "floor0_2"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/floor0_2.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "floor0_3"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/floor0_3.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "floor0_5"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/floor0_5.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "floor0_6"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/floor0_6.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "floor0_7"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/floor0_7.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "floor1_7"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/floor1_7.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "floor4_1"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/floor4_1.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "floor4_5"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/floor4_5.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "floor4_6"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/floor4_6.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "floor4_8"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/floor4_8.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "floor5_1"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/floor5_1.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "floor5_2"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/floor5_2.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "floor5_3"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/floor5_3.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "floor5_4"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/floor5_4.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "floor7_1"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/floor7_1.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "gate1"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/gate1.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "gate2"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/gate2.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "gate3"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/gate3.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "gate4"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/gate4.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "GRAY1"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/GRAY1.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "GRAY2"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/GRAY2.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "GRAY4"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/GRAY4.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "GRAY5"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/GRAY5.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "GRAYDANG"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/GRAYDANG.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "GRAYVINE"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/GRAYVINE.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "GSTONE2"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/GSTONE2.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "GSTVINE1"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/GSTVINE1.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "GSTVINE2"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/GSTVINE2.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "ICKDOOR1"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/ICKDOOR1.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "ICKWALL1"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/ICKWALL1.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "ICKWALL2"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/ICKWALL2.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "ICKWALL3"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/ICKWALL3.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "ICKWALL4"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/ICKWALL4.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "ICKWALL5"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/ICKWALL5.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "ICKWALL6"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/ICKWALL6.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "LITE2"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/LITE2.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "LITE3"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/LITE3.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "LITE4"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/LITE4.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "LITE5"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/LITE5.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "LITE96"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/LITE96.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "LITEBLU1"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/LITEBLU1.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "LITEBLU3"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/LITEBLU3.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "LITEBLU4"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/LITEBLU4.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "LITEMET"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/LITEMET.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "LITESTON"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/LITESTON.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "METAL"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/METAL.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "METAL1"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/METAL1.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "mflr8_1"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/mflr8_1.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "MIDVINE1"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/MIDVINE1.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "MIDVINE2"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/MIDVINE2.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "sflr6_4"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/sflr6_4.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "sflr7_1"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/sflr7_1.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "sflr7_4"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/sflr7_4.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "SHAWN3"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/SHAWN3.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "SKIN2"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/SKIN2.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "SKINEDGE"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/SKINEDGE.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "SKINFACE"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/SKINFACE.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "STARBR2"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/STARBR2.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "STARG1"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/STARG1.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "STARG2"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/STARG2.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "STARG3"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/STARG3.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "STARGR1"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/STARGR1.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "STARGR2"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/STARGR2.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "STARTAN1"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/STARTAN1.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "STARTAN2"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/STARTAN2.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "STARTAN3"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/STARTAN3.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "step1"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/step1.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "step2"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/step2.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "STONE2"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/STONE2.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "STONE3"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/STONE3.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "STONGARG"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/STONGARG.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "SUPPORT2"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/SUPPORT2.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "SUPPORT3"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/SUPPORT3.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "SW1BRCOM"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/SW1BRCOM.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "SW1BRN1"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/SW1BRN1.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "SW1BRN2"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/SW1BRN2.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "SW1BRNGN"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/SW1BRNGN.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "SW1BROWN"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/SW1BROWN.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "SW1CMT"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/SW1CMT.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "SW1COMP"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/SW1COMP.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "SW1GRAY"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/SW1GRAY.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "SW1GRAY1"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/SW1GRAY1.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "SW1METAL"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/SW1METAL.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "SW1STARG"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/SW1STARG.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "SW1STON1"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/SW1STON1.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "SW1STON2"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/SW1STON2.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "SW1STRTN"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/SW1STRTN.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "SW1VINE"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/SW1VINE.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "SW1WOOD"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/SW1WOOD.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "SW2BRCOM"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/SW2BRCOM.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "SW2BRN1"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/SW2BRN1.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "SW2BRN2"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/SW2BRN2.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "SW2BRNGN"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/SW2BRNGN.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "SW2BROWN"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/SW2BROWN.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "SW2CMT"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/SW2CMT.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "SW2COMP"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/SW2COMP.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "SW2GRAY"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/SW2GRAY.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "SW2GRAY1"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/SW2GRAY1.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "SW2GSTON"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/SW2GSTON.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "SW2HOT"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/SW2HOT.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "SW2METAL"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/SW2METAL.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "SW2STARG"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/SW2STARG.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "SW2STON1"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/SW2STON1.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "SW2STON2"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/SW2STON2.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "SW2STRTN"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/SW2STRTN.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "SW2VINE"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/SW2VINE.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "SW2WOOD"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/SW2WOOD.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "tlite6_1"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/tlite6_1.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "tlite6_4"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/tlite6_4.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "tlite6_5"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/tlite6_5.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "tlite6_6"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/tlite6_6.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "WOOD1"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/WOOD1.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "WOOD3"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/WOOD3.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "WOOD4"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/WOOD4.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "WOODGARG"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/WOODGARG.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "WOODSKUL"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/WOODSKUL.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
