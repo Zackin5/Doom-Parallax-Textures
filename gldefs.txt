@@ -414,3 +414,80 @@ material texture "SW2SKIN"
 	glossiness	35
 	iwad
 }
+
+material flat "BLOOD1"
+{
+	shader	"SHADERS/displacement.fp"
+	//texture normal "materials/normalmaps/BLOOD1.png"
+	texture displacement "materials/displacement/BLOOD1.png"
+	specular "materials/specular/BLOOD1.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material flat "BLOOD2"
+{
+	shader	"SHADERS/displacement.fp"
+	//texture normal "materials/normalmaps/BLOOD2.png"
+	texture displacement "materials/displacement/BLOOD2.png"
+	specular "materials/specular/BLOOD2.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material flat "BLOOD3"
+{
+	shader	"SHADERS/displacement.fp"
+	//texture normal "materials/normalmaps/BLOOD3.png"
+	texture displacement "materials/displacement/BLOOD3.png"
+	specular "materials/specular/BLOOD3.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material flat "FWATER1"
+{
+	shader	"SHADERS/displacement.fp"
+	//texture normal "materials/normalmaps/FWATER1.png"
+	texture displacement "materials/displacement/FWATER1.png"
+	specular "materials/specular/FWATER1.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material flat "FWATER2"
+{
+	shader	"SHADERS/displacement.fp"
+	//texture normal "materials/normalmaps/FWATER2.png"
+	texture displacement "materials/displacement/FWATER2.png"
+	specular "materials/specular/FWATER2.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material flat "FWATER3"
+{
+	shader	"SHADERS/displacement.fp"
+	//texture normal "materials/normalmaps/FWATER3.png"
+	texture displacement "materials/displacement/FWATER3.png"
+	specular "materials/specular/FWATER3.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material flat "FWATER4"
+{
+	shader	"SHADERS/displacement.fp"
+	//texture normal "materials/normalmaps/FWATER4.png"
+	texture displacement "materials/displacement/FWATER4.png"
+	specular "materials/specular/FWATER4.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
