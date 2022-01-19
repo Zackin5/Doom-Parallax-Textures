@@ -2,10 +2,12 @@
 #define STEEP_PARALLAX
 #define STEEP_PARALLAX_SMOOTH
 #define PARALLAX_NORMALS    // Adds parallax displacement to normal maps
+//#define DIFFUSE_LIGHTING    // Hackish diffuse lighting for walls
 
 mat3 GetTBN();
 vec3 GetBumpedNormal(mat3 tbn, vec2 texcoord);
 vec2 ParallaxMap(mat3 tbn, out vec3 outNormal);
+vec4 DiffuseLighting(vec4 color, vec3 normal);
 
 Material ProcessMaterial()
 {
@@ -18,6 +20,9 @@ Material ProcessMaterial()
     material.Normal = GetBumpedNormal(tbn, texCoord);
 #ifdef PARALLAX_NORMALS
     material.Normal += parallaxN * material.Base.a;
+#endif
+#ifdef DIFFUSE_LIGHTING
+    material.Base = DiffuseLighting(material.Base, material.Normal);
 #endif
 
 #if defined(SPECULAR)
@@ -179,3 +184,16 @@ float GetDisplacementAt(vec2 currentTexCoords)
         #endif
     }
 #endif
+
+vec4 DiffuseLighting(vec4 color, vec3 normal)
+{
+    const vec3 lightColor = vec3(1,1,1);
+    const vec3 lightDir = vec3(0,1,0);
+    float diff = dot(normal, lightDir);
+    // diff = pow(abs(diff), 1.0/3.0);
+    // if(diff > 0.75)
+        // return color;
+    diff = clamp(diff, 0, 1);
+    color.rgb += lightColor * diff;
+    return color;
+}

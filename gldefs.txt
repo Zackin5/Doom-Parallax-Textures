@@ -214,7 +214,7 @@ material texture "FLOOR6_2"
 	iwad
 }
 
-material texture "FLAT10"
+material flat "FLAT10"
 {
 	shader	"SHADERS/displacement.fp"
 	texture normal "materials/normalmaps/FLOOR6_1.png"
@@ -487,6 +487,215 @@ material flat "FWATER4"
 	//texture normal "materials/normalmaps/FWATER4.png"
 	texture displacement "materials/displacement/FWATER4.png"
 	specular "materials/specular/FWATER4.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "EXITDOOR"
+{
+	shader	"SHADERS/displacement.fp"
+	texture normal "materials/normalmaps/EXITDOOR.png"
+	texture displacement "materials/displacement/EXITDOOR.png"
+	specular "materials/specular/EXITDOOR.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material flat "STEP1"
+{
+	shader	"SHADERS/displacement.fp"
+	texture normal "materials/normalmaps/step1.png"
+	texture displacement "materials/displacement/step1.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material flat "STEP2"
+{
+	shader	"SHADERS/displacement.fp"
+	texture normal "materials/normalmaps/step1.png"
+	texture displacement "materials/displacement/step2.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material flat "COMP2"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/COMP2.png"
+	specular "materials/specular/COMP2.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "TEKWALL1"
+{
+	shader	"SHADERS/displacement.fp"
+	texture normal "materials/normalmaps/TEKWALL1.png"
+	texture displacement "materials/displacement/TEKWALL1.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material texture "TEKWALL4"
+{
+	shader	"SHADERS/displacement.fp"
+	texture normal "materials/normalmaps/TEKWALL4.png"
+	texture displacement "materials/displacement/TEKWALL4.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material flat "tlite6_1"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/tlite6_1.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material flat "tlite6_4"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/tlite6_4.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material flat "tlite6_5"
+{
+	shader	"SHADERS/displacement.fp"
+	texture normal "materials/normalmaps/tlite6_5.png"
+	texture displacement "materials/displacement/tlite6_5.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material flat "tlite6_6"
+{
+	shader	"SHADERS/displacement.fp"
+	texture normal "materials/normalmaps/tlite6_5.png"
+	texture displacement "materials/displacement/tlite6_5.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material flat "FLOOR1_1"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/FLOOR1_1.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material flat "FLOOR6_1"
+{
+	shader	"SHADERS/displacement.fp"
+	texture normal	"materials/normalmaps/FLOOR6_1.png"
+	texture displacement "materials/displacement/FLOOR6_1.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material flat "DOORTRAK"
+{
+	shader	"SHADERS/displacement.fp"
+	texture normal "materials/normalmaps/DOORTRAK.png"
+	texture displacement "materials/displacement/DOORTRAK.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material flat "ceil1_1"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/ceil1_1.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material flat "ceil1_2"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/ceil1_2.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material flat "ceil1_3"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/ceil1_3.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material flat "ceil3_1"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/ceil3_1.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material flat "ceil3_2"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/ceil3_2.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material flat "ceil3_3"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/ceil3_3.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material flat "ceil3_4"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/ceil3_4.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material flat "ceil3_5"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/ceil3_5.png"
+	specularlevel	4.5
+	glossiness	35
+	iwad
+}
+
+material flat "ceil3_6"
+{
+	shader	"SHADERS/displacement.fp"
+	texture displacement "materials/displacement/ceil3_6.png"
 	specularlevel	4.5
 	glossiness	35
 	iwad

@@ -93,16 +93,6 @@ material texture "FLAT5_7"
 	iwad
 }
 
-material texture "FLOOR6_1"
-{
-	shader	"SHADERS/displacement.fp"
-	texture normal	"materials/normalmaps/FLOOR6_1.png"
-	texture displacement "materials/displacement/FLOOR6_1.png"
-	specularlevel	4.5
-	glossiness	35
-	iwad
-}
-
 material texture "GSTONE1"
 {
 	shader	"SHADERS/displacement.fp"
@@ -336,87 +326,6 @@ material texture "BROWNPIP"
 	iwad
 }
 
-material texture "ceil1_1"
-{
-	shader	"SHADERS/displacement.fp"
-	texture displacement "materials/displacement/ceil1_1.png"
-	specularlevel	4.5
-	glossiness	35
-	iwad
-}
-
-material texture "ceil1_2"
-{
-	shader	"SHADERS/displacement.fp"
-	texture displacement "materials/displacement/ceil1_2.png"
-	specularlevel	4.5
-	glossiness	35
-	iwad
-}
-
-material texture "ceil1_3"
-{
-	shader	"SHADERS/displacement.fp"
-	texture displacement "materials/displacement/ceil1_3.png"
-	specularlevel	4.5
-	glossiness	35
-	iwad
-}
-
-material texture "ceil3_1"
-{
-	shader	"SHADERS/displacement.fp"
-	texture displacement "materials/displacement/ceil3_1.png"
-	specularlevel	4.5
-	glossiness	35
-	iwad
-}
-
-material texture "ceil3_2"
-{
-	shader	"SHADERS/displacement.fp"
-	texture displacement "materials/displacement/ceil3_2.png"
-	specularlevel	4.5
-	glossiness	35
-	iwad
-}
-
-material texture "ceil3_3"
-{
-	shader	"SHADERS/displacement.fp"
-	texture displacement "materials/displacement/ceil3_3.png"
-	specularlevel	4.5
-	glossiness	35
-	iwad
-}
-
-material texture "ceil3_4"
-{
-	shader	"SHADERS/displacement.fp"
-	texture displacement "materials/displacement/ceil3_4.png"
-	specularlevel	4.5
-	glossiness	35
-	iwad
-}
-
-material texture "ceil3_5"
-{
-	shader	"SHADERS/displacement.fp"
-	texture displacement "materials/displacement/ceil3_5.png"
-	specularlevel	4.5
-	glossiness	35
-	iwad
-}
-
-material texture "ceil3_6"
-{
-	shader	"SHADERS/displacement.fp"
-	texture displacement "materials/displacement/ceil3_6.png"
-	specularlevel	4.5
-	glossiness	35
-	iwad
-}
-
 material texture "CEMENT3"
 {
 	shader	"SHADERS/displacement.fp"
@@ -430,15 +339,6 @@ material texture "comp01"
 {
 	shader	"SHADERS/displacement.fp"
 	texture displacement "materials/displacement/comp01.png"
-	specularlevel	4.5
-	glossiness	35
-	iwad
-}
-
-material texture "COMP2"
-{
-	shader	"SHADERS/displacement.fp"
-	texture displacement "materials/displacement/COMP2.png"
 	specularlevel	4.5
 	glossiness	35
 	iwad
@@ -646,15 +546,6 @@ material texture "DOORSTOP"
 {
 	shader	"SHADERS/displacement.fp"
 	texture displacement "materials/displacement/DOORSTOP.png"
-	specularlevel	4.5
-	glossiness	35
-	iwad
-}
-
-material texture "DOORTRAK"
-{
-	shader	"SHADERS/displacement.fp"
-	texture displacement "materials/displacement/DOORTRAK.png"
 	specularlevel	4.5
 	glossiness	35
 	iwad
@@ -1389,24 +1280,6 @@ material texture "STARTAN3"
 	iwad
 }
 
-material texture "step1"
-{
-	shader	"SHADERS/displacement.fp"
-	texture displacement "materials/displacement/step1.png"
-	specularlevel	4.5
-	glossiness	35
-	iwad
-}
-
-material texture "step2"
-{
-	shader	"SHADERS/displacement.fp"
-	texture displacement "materials/displacement/step2.png"
-	specularlevel	4.5
-	glossiness	35
-	iwad
-}
-
 material texture "STONE2"
 {
 	shader	"SHADERS/displacement.fp"
@@ -1753,42 +1626,6 @@ material texture "SW2WOOD"
 {
 	shader	"SHADERS/displacement.fp"
 	texture displacement "materials/displacement/SW2WOOD.png"
-	specularlevel	4.5
-	glossiness	35
-	iwad
-}
-
-material texture "tlite6_1"
-{
-	shader	"SHADERS/displacement.fp"
-	texture displacement "materials/displacement/tlite6_1.png"
-	specularlevel	4.5
-	glossiness	35
-	iwad
-}
-
-material texture "tlite6_4"
-{
-	shader	"SHADERS/displacement.fp"
-	texture displacement "materials/displacement/tlite6_4.png"
-	specularlevel	4.5
-	glossiness	35
-	iwad
-}
-
-material texture "tlite6_5"
-{
-	shader	"SHADERS/displacement.fp"
-	texture displacement "materials/displacement/tlite6_5.png"
-	specularlevel	4.5
-	glossiness	35
-	iwad
-}
-
-material texture "tlite6_6"
-{
-	shader	"SHADERS/displacement.fp"
-	texture displacement "materials/displacement/tlite6_6.png"
 	specularlevel	4.5
 	glossiness	35
 	iwad
